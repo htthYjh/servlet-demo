@@ -13,8 +13,13 @@
 <body>
     <!-- 取出数据 -->
     <%
-        String username = (String)request.getAttribute("username");
-        out.print(username);
+//        String username = (String)request.getAttribute("username");
+//        out.print(username);
+    %>
+
+    <%
+        String goods = (String) application.getAttribute("goods");
+        out.print(goods);
     %>
 </body>
 </html>
